@@ -1,0 +1,46 @@
+@import-normalize;
+@import './assets/styles/utils/mixins';
+@import './assets/styles//utils/reset_style';
+@import './assets/styles/utils/vars';
+
+@font-face {
+  font-family: 'Manrope-Medium';
+  src: local('Manrope-Medium'),
+    url('./assets/fonts/Manrope/Manrope-Medium.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Manrope-Regular';
+  src: local('Manrope-Regular'),
+    url('./assets/fonts/Manrope/Manrope-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Manrope-SemiBold';
+  src: local('Manrope-SemiBold'),
+    url('./assets/fonts/Manrope/Manrope-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+body {
+  background-color: $main_bckgrd;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Manrope-Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  $main_color: #121417;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+code {
+  font-family: 'Manrope-Regular', 'Courier New',
+    monospace;
+}
+
