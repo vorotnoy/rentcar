@@ -1,0 +1,21 @@
+@import '../../assets/styles/utils/vars';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 250px;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  text-align: center;
+}
+.titleSpan {
+  color: $button_hover;
+}
+.mainImg {
+  width: 300px;
+}

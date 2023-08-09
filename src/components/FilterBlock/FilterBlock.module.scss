@@ -1,0 +1,143 @@
+@import '../../assets/styles/utils/mixins';
+@import '../../assets/styles/utils/vars';
+
+.container{
+  @include container
+}
+.wrapper{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+.filterWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+
+}
+.labelTitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: $text_color1;
+
+  margin-right:18px ;
+}
+.inputBrand {
+  width: 224px;
+  height: 48px;
+  padding: 14px 89px 14px 18px;
+  border-radius: 14px;
+  gap: 32px;
+
+  margin-top: 8px;
+  margin-right: 18px;
+
+  border: 0;
+
+  background-color: $bckgrd1;
+  
+  &::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $main_color;
+  }
+}
+.inputPrice {
+  width: 125px;
+  height: 48px;
+  padding: 14px 18px 14px 18px;
+  border-radius: 14px;
+  gap: 32px;
+
+  margin-top: 8px;
+  margin-right: 18px;
+
+  border: 0;
+
+  background-color: $bckgrd1;
+
+  &::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: $main_color;
+  }
+}
+.inputMileUp {
+  width: 160px;
+  height: 48px;
+  padding: 14px 14px 14px 24px;
+  border-radius: 14px 0px 0px 14px;
+  border-width: 0 1px 0 0;
+  border-color:$border_color ;
+  margin-top: 8px;
+
+  background-color: $bckgrd1;
+  &:focus,
+  &:focus-visible{
+    border: none;
+  }
+}
+.inputMileTo {
+  width: 160px;
+  height: 48px;
+  left: 160px;
+  padding: 14px 14px 14px 24px;
+  border-radius: 0px 14px 14px 0px;
+  border: 0;
+  background-color: $bckgrd1;
+  &:focus,
+  &:focus-visible{
+    border: 0;
+  }
+}
+.button {
+  width: 136px;
+  height: 48px;
+  padding: 14px 44px 14px 44px;
+  border-radius: 12px;
+
+  border: 0;
+
+  margin-left: 18px;
+  color: $main_bckgrd;
+  background-color: $button;
+
+  cursor: pointer;
+  &:hover{
+    background-color: $button_hover;
+  }
+}
+.button_reset{
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: $button;
+
+  cursor: pointer;
+  &:hover{
+    background-color: $button_hover;
+}
+}
+.svg_reset{
+  stroke: $main_color;
+
+
+  cursor: pointer;
+}

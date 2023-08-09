@@ -1,0 +1,12 @@
+@import './../../assets/styles/utils/mixins';
+
+.container {
+    @include container;
+  }
+.nav{
+    display: flex;
+    align-items: flex-end;
+}
+.image{
+    width: 150px;
+}

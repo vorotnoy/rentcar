@@ -1,0 +1,55 @@
+.react-select {
+  &-container {
+    height: 100%;
+    border-color: transparent !important;
+  }
+  &__control {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    padding: 8px 14px 8px;
+    height: 100%;
+  }
+  &__value-container {
+    padding: 0;
+    // padding-left: 18px;
+  }
+  &__option {
+    color: black !important;
+    height: 35px;
+    align-items: center;
+    padding: 0;
+
+    &:hover {
+      background: #a7b3d4 !important;
+    }
+  }
+  &__single-value {
+    color: #121417 !important;
+  }
+  &__indicator-separator {
+    display: none;
+    width: 0px;
+  }
+
+  &__menu {
+    margin: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__dropdown-indicator {
+    color: #121417;
+  }
+}
+.react-select-container_brand{
+  width: 224px;
+  height: 48px;
+  border-radius: 14px;
+  background-color: #F7F7FB;
+}
+.react-select-container_cost{
+  width: 130px;
+  height: 48px;
+  border-radius: 14px;
+  background-color: #F7F7FB;
+}

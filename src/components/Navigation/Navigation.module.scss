@@ -1,0 +1,23 @@
+@import '../../assets/styles/utils/vars';
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.menuItem{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+
+    padding: 10px 50px 0 50px;
+    border-radius: 5px;
+    color:$button;
+    &:hover,
+    &:focus{
+        color:$button_hover;
+        text-decoration: underline;
+    }
+}

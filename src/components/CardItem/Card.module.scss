@@ -1,0 +1,111 @@
+@import '../../assets/styles/utils/vars';
+
+.image {
+  width: 274px;
+  height: 268px;
+  border-radius: 14px;
+
+  object-fit: cover;
+
+  margin-bottom: 14px;
+}
+.image_wrapper{
+  position: relative;
+}
+.svg_favorite{
+  position: absolute;
+  top: 14px;
+  right: 14px;
+
+  stroke: $stroke;
+
+  cursor: pointer;
+}
+.cardWrapper {
+  width: 274px;
+  height: 426px;
+}
+.textBlock{
+  height: 40px;
+  overflow: hidden;
+}
+.titleLine {
+  display: flex;
+  justify-content: space-between;
+}
+.textLine {
+  display: flex;
+  margin-bottom: 4px;
+}
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: $main_color;
+}
+.title_model {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: $button;
+}
+.text {
+  position: relative;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: $text_color;
+  &::after {
+    content: "";
+    display: inline-block;
+
+    margin-left: 6px;
+    margin-right: 6px;
+    vertical-align: middle;
+
+    width: 1px;
+    height: 16px;
+    background-color: $bckgrd;
+  }
+}
+.text_last{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: $text_color;
+}
+.button {
+  width: 274px;
+  height: 44px;
+  padding: 12px 99px 12px 99px;
+  border-radius: 12px;
+
+  margin-top: 28px;
+
+  background-color: $button;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: $main_bckgrd;
+
+  border: 0;
+
+  cursor: pointer;
+  &:hover,
+  &:focus{
+    background-color: $button_hover;
+  }
+}
