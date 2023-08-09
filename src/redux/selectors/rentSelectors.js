@@ -1,0 +1,1 @@
+export const selectlistCar = state => state.rent.listCar;
